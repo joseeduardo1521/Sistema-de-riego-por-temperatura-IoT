@@ -1,0 +1,2 @@
+Pin analogico para sensor de tierra = 33
+Pin digital para DHT11 = 23
