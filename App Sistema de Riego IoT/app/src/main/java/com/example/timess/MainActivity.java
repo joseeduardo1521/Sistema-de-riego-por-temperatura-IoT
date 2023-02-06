@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView texto1;
     private TextView texto2;
     private TextView texto3;
+    private TextView texto4;
     private DatabaseReference mDatabase;
     private FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
     private DatabaseReference databaseReference = firebaseDatabase.getReference();
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         texto1 = (TextView) findViewById(R.id.mms);
         texto2 = (TextView) findViewById(R.id.mms2);
         texto3 = (TextView) findViewById(R.id.info);
+        texto4 = (TextView) findViewById(R.id.tatus);
         mDatabase = FirebaseDatabase.getInstance().getReference();
         getUserInfo();
 
@@ -47,10 +49,14 @@ public class MainActivity extends AppCompatActivity {
                 String Temperatura = snapshot.child("Temperatura").getValue().toString();
                 String Humedad = snapshot.child("Humedad").getValue().toString();
                 String HumedadSu = snapshot.child("Humedad Tierra").getValue().toString();
+                String mac = snapshot.child("Mensaje").getValue().toString();
                 texto1.setText(Temperatura);
                 texto2.setText(Humedad);
                 texto3.setText(HumedadSu);
+                texto4.setText(mac);
+
             }
+
             }
 
             @Override
