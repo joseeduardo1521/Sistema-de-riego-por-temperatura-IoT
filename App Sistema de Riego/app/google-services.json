@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "605768600960",
+    "firebase_url": "https://ardu-cfdaa-default-rtdb.firebaseio.com",
+    "project_id": "ardu-cfdaa",
+    "storage_bucket": "ardu-cfdaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605768600960:android:167062e69872c0dd7f0565",
+        "android_client_info": {
+          "package_name": "com.example.rehacer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605768600960-dkk2gr7qfirsnhftdiau8gg4sdh3j869.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWDl0IN39NHvPuLvQwwxGuhzGXR41O2iQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605768600960-dkk2gr7qfirsnhftdiau8gg4sdh3j869.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605768600960:android:599c25faf00e6fb87f0565",
+        "android_client_info": {
+          "package_name": "com.example.timess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605768600960-dkk2gr7qfirsnhftdiau8gg4sdh3j869.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWDl0IN39NHvPuLvQwwxGuhzGXR41O2iQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605768600960-dkk2gr7qfirsnhftdiau8gg4sdh3j869.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
